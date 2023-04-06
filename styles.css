@@ -1,9 +1,34 @@
-* {
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: white;
-    
-}
-
-header {
-    background-color: rgb(56, 57, 59)
-}
+:root {
+    --default: white;
+    --darkGray: #2f3236;
+    --aqua: #1dd8dc;
+    --red: #e24424;
+    --lightyellow: #8ad470;
+  }
+  
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 400;
+  }
+  
+  .header,
+  .customModalHeader,
+  .customCardHeader,
+  .custom-button {
+    background-color: var(--darkGray);
+    color: var(--default);
+  }
+  
+  .table-custom th {
+    background-color: var(--aqua);
+    color: var(--default);
+  }
+  
+  .late {
+    background-color: var(--red);
+  }
+  
+  .today {
+    background-color: var(--lightyellow);
+  }
+  
